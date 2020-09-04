@@ -9,6 +9,15 @@
 ## Descrição ##
 Este é um pequeno projeto de uma página de registro genérica para por em prática alguns conceitos do framework Laravel.
 
+**Metas:**
+- [x] Criar página de registro.
+- [x] Encriptar a senha.
+- [x] Salvar os dados no banco de dados.
+- [ ] Verificar se o e-mail já está registrado no banco de dados.
+- [ ] Criar página de registro realizado com sucesso.
+- [ ] Criar página de login.
+- [ ] Comparar as senhas para validação do login.
+
 **Tecnologias utilizadas:**
 - [Laravel](https://laravel.com/)
 - [SQLite](https://www.sqlite.org/index.html)
