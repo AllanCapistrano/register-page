@@ -15,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('register');
-});
+})->name('index');
+
+/*Implementar página de registrado com sucesso.*/
+// Route::get('/success', 'UserController@index')->name('user.registered');
+
+Route::post('/store', 'UserController@store')->name('user.store');
