@@ -30,4 +30,4 @@ Este é um pequeno projeto de uma página de registro genérica para por em prá
 ------------
 
 ## Licença ##
-[MIT License (MIT)](https://github.com/AllanCapistrano/SteamOffersBot/blob/master/LICENSE)
+[MIT License (MIT)](https://github.com/AllanCapistrano/register-page/blob/master/LICENSE)
