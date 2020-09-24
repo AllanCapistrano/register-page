@@ -21,3 +21,10 @@ Route::get('/', function () {
 // Route::get('/success', 'UserController@index')->name('user.registered');
 
 Route::post('/store', 'UserController@store')->name('user.store');
+
+Route::get('/home/login', function () {
+    return view('login');
+})->name('home.login');
+
+/*Trocar para post.*/
+Route::get('/user/check', 'UserController@check')->name('user.check');
